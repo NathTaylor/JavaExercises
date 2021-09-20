@@ -22,10 +22,7 @@ public class CalculationQuestions {
 		return (myInt1 - myInt2);
 	}
 
-	public static void myDivide(double myDoub1, double myDoub2) {
-		if (myDoub1 < myDoub2); {
-			return(myDoub1/myDoub2);
-		} else {
-		
+	public static double myDivide(double myDoub1, double myDoub2) {
+		return(myDoub1/myDoub2);
     }
 }

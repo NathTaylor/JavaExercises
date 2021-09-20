@@ -3,21 +3,24 @@ package qa.com.calc;
 public class runner {
 
 	public static void main(String[] args) {
-		BlackJack.jackBlack(0, 0);
+		
+		BlackJack.blackJack(23, 22);
 	
-		BoolFlow.boolflow(5, 6, true);
+		BoolFlow.boolflow(5, 6, false);
 	
-		CalculationQuestions.mySum(0, 0);
+		CalculationQuestions.mySum(5, 6);
 	
-		CalculationQuestions.myTimes(0, 0);
+		CalculationQuestions.myTimes(5, 6);
 	
-		CalculationQuestions.mySubtract(0, 0);
+		CalculationQuestions.mySubtract(5, 6);
 	
-		CalculationQuestions.myDivide(0, 0);
+		CalculationQuestions.myDivide(5, 6);
+		
+		CalcPart2.myDivide(5.0, 4.0);
 	
-		CoinsIteration.change();
+		CoinsIteration.change(0, 0);;
 	
-		FlowChart.flow(0);
+		FlowChart.flow(6000);
 		
 		IterationFlow.iterationflow1();
 		
@@ -27,7 +30,7 @@ public class runner {
 		
 		one2ten.onebyone();
 		
-		OperatorsExams.method1(0, 0, 0);
+		OperatorsExams.method1(112, 101, 98);
 		
 		OperatorsExams.method2();
 		
